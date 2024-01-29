@@ -1,15 +1,15 @@
 h1 {
     font-size: var(--fs-400);
-    font-weight: 600;
+    font-weight: var(--fw-semibold);
 }
 
 p {
-    font-weight: 400;
+    font-weight: var(--fw-regular);
 }
 
 a,
 h2 {
-    font-weight: 700;
+    font-weight: var(--fw-bold);
 }
 
 a,
