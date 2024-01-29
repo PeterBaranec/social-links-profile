@@ -1,0 +1,44 @@
+@use "../base/fonts" as font;
+
+/* -------------------- */
+/* RESET                */
+/* -------------------- */
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* RESET MARGINS */
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+
+/* set up the body*/
+
+body {
+    line-height: 1.5;
+    font-family: font.$font;
+    font-size: var(--fs-300);
+    background-color: var(--clr-neutral-offblack);
+    color: var(--clr-neutral-light);
+}
+
+/* make images easier to work with*/
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}

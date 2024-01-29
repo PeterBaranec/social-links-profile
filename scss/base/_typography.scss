@@ -1,0 +1,26 @@
+h1 {
+    font-size: var(--fs-400);
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+a,
+h2 {
+    font-weight: 700;
+}
+
+a,
+h2,
+p {
+    font-size: var(--fs-200);
+}
+
+
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+}
